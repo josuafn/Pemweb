@@ -1,0 +1,137 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+ 
+body{
+    background: #8B0000;
+}
+ 
+h1{
+    color: #FFEFD5;
+    margin-top: 40px;
+    font-size: 18px;
+}
+ 
+a{
+    text-decoration: none;
+}
+ 
+div.kiri{
+    float: left;
+color: #ffffff;
+}
+ 
+div.kanan{
+    float: right;
+color: #ffffff;
+}
+ 
+span{
+    font-size: 13px;
+}
+ 
+/**
+*   Desain Bagian Atas
+*
+ */
+ 
+ 
+
+ 
+div.grup{
+    margin: 10px 0;
+color: #ffffff;
+}
+ 
+
+a.a.garisbawah{
+    text-decoration: underline;
+}
+ 
+a.a.tombol{
+    font-size: 14px;
+    padding: 0 7px;
+    border-radius: 3px;
+    color: #ffffff;
+    display: inline-block;
+    line-height: 28px;
+    width: 49.3%;
+}
+ 
+a.a.facebook{
+    background: #405598;
+}
+ 
+a.a.facebook:hover{
+    background: #35467e;
+}
+ 
+a.a.gmail{
+    background: #B22222;
+}
+ 
+a.a.gmail:hover{
+    background: #0195cb ;
+}
+ 
+
+a.a i{
+    margin-right: 10px;
+}
+ 
+form{
+    margin: 20px 0;
+}
+ 
+
+ 
+button.tombol{
+    color: #ffffff;
+    width: 88px;
+    height: 28px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+ 
+ 
+ 
+input[type="checkbox"]{
+    cursor: pointer;
+    float: left;
+    margin:2px 4px 0 0;
+}
+ 
+/**
+*   Desain Bagian Bawah
+*
+ */
+ 
+div.kanan{
+    height: 60px;
+    color: #ffffff;
+    
+  
+}
+
+span.info{
+    color: #ffffff;
+    line-height: 60px;
+    background: #0288D1;
+    background-color: #B22222;
+    border: 2px solid #d9d9d9;
+    border-radius: 5px;
+    color: #F8F8FF;
+    margin-top: 20px; 
+    margin-left: 42px; 
+    width: 260px; 
+    height: 30px; 
+    text-align: center; 
+    font-size: 17px; 
+    cursor: pointer;
+   
+}
